@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/layout_padding"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/layout_padding"
+        android:text="Minimum"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/layout_padding"
+        android:text="MAximum"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_marginTop="@dimen/layout_padding"
+        android:text="Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppButtonStyle"/>
+</LinearLayout>

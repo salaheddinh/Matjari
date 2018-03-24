@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="product_tag" translatable="false">product_tag</string>
+    <string name="subcategory_id_tag" translatable="false">subcategory_id_tag</string>
+    <string name="phone_tag" translatable="false">phone_tag</string>
+    <string name="item_tag" translatable="false">item_tag</string>
+    <string name="type_tag" translatable="false">type_tag</string>
+    <string name="offer_tag" translatable="false">offer_tag</string>
+    <string name="filter_tag" translatable="false">filter_tag</string>
+    <string name="position_tag" translatable="false">position_tag</string>
+    <string name="subcategory_name_tag" translatable="false">subcategory_name_tag</string>
+</resources>

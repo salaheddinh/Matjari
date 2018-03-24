@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.salaheddin.store">
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <!--
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    -->
+    <application
+        android:name=".MatjariApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="supportsRtl">
+        <activity android:name=".ui.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.SearchActivity"
+            android:windowSoftInputMode="stateVisible" />
+
+        <service
+            android:name=".services.CartService"
+            android:exported="false" />
+
+        <activity android:name=".ui.activities.CartActivity" />
+        <activity android:name=".ui.activities.ProductDetailsActivity" />
+        <activity android:name=".ui.activities.AllOffersActivity" />
+        <activity android:name=".ui.activities.OfferDetailsActivity" />
+        <activity android:name=".ui.activities.CategoryProductsActivity" />
+        <activity android:name=".ui.activities.ForgetPasswordActivity" />
+        <activity android:name=".ui.activities.MyOrdersActivity" />
+        <activity android:name=".ui.activities.CheckOutActivity" />
+        <activity android:name=".ui.activities.AddShippingInfoActivity" />
+        <activity android:name=".ui.activities.UserProfileActivity" />
+        <activity android:name=".ui.activities.PhotoSliderActivity" />
+        <activity android:name=".ui.activities.AuthenticationActivity" />
+        <activity android:name=".ui.activities.FilterActivity"></activity>
+    </application>
+
+</manifest>
